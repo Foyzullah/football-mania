@@ -1,9 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 const League = (props) => {
-  console.log(props.league);
   const { idLeague, strLeague, strSport } = props.league;
 
   const history = useHistory();

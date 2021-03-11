@@ -1,7 +1,6 @@
 import React from "react";
 
 const Header = (props) => {
-  // console.log(props);
   const { banner, badge, homeBanner } = props;
   let bannerImage;
   if (homeBanner) {
@@ -10,8 +9,6 @@ const Header = (props) => {
   if (banner) {
     bannerImage = banner;
   }
-
-  console.log(bannerImage);
   return (
     <div className="container-fluid">
       <div className="row">
