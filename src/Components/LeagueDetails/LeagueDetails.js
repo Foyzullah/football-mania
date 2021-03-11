@@ -78,15 +78,19 @@ const LeagueDetails = () => {
         <div className="footer">
           <ul>
             <li>
-              <Link to="facebook.com">
+              <Link target="_blank">
                 <FontAwesomeIcon className="social-link" icon={faFacebookF} />
               </Link>
             </li>
             <li>
-              <FontAwesomeIcon className="social-link" icon={faTwitter} />
+              <Link target="_blank">
+                <FontAwesomeIcon className="social-link" icon={faTwitter} />
+              </Link>
             </li>
             <li>
-              <FontAwesomeIcon className="social-link" icon={faYoutube} />
+              <Link target="_blank">
+                <FontAwesomeIcon className="social-link" icon={faYoutube} />
+              </Link>
             </li>
           </ul>
         </div>
